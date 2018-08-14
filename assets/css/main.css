@@ -2513,12 +2513,12 @@
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
-			padding: 3em;
+			padding: 2em;
 		}
 
 			#header > header .avatar {
 				display: block;
-				margin: 0 auto 2.25em auto;
+				margin: 0 auto 0.75em auto;
 				width: 8em;
 			}
 
@@ -2530,7 +2530,7 @@
 			#header > header p {
 				color: var(--light-color);
 				font-style: italic;
-				margin: 1em 0 0 0;
+				margin: 0.4em 0 0 0;
 			}
 
 		#header > footer {
@@ -2540,7 +2540,7 @@
 			flex-shrink: 0;
 			bottom: 0;
 			left: 0;
-			padding: 2em;
+			padding: 0.5em;
 			width: 100%;
 		}
 
@@ -2580,7 +2580,7 @@
 						border: 0;
 						color: #ffffff !important;
 						display: block;
-						padding: 0.2em 0;
+						padding: 0.15em 0;
 						text-decoration: none;
 					}
 
@@ -2614,9 +2614,9 @@
 			border-top: 0;
 		}
 
-/* One */
+/* about */
 
-	#one:before {
+	#about:before {
 		background-image: url("../../images/baylands-banner.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
@@ -2801,7 +2801,7 @@
 
 		/* One */
 
-			#one:before {
+			#about:before {
 				height: 10em;
 			}
 
@@ -2984,11 +2984,11 @@
 					}
 
 					#header > header p {
-						margin: 1em 0 0 0;
+						margin: 0.5em 0 0 0;
 					}
 
 				#header > footer {
-					padding: 1.5em;
+					padding: 1em;
 				}
 
 		/* Main */
@@ -2999,7 +2999,7 @@
 
 		/* One */
 
-			#one:before {
+			#about:before {
 				height: 7em;
 			}
 
